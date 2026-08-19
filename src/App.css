@@ -5,38 +5,41 @@
 }
 
 #header {
-  background-color: #f8f9fa;
-  padding: 20px;
+  background-color: #ccd5ea;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  display: flex;
+  align-items: center;
+  display:flex;
+  justify-content: space-between;
 }
 
-#menu-icon {
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
+#menu {
+  justify-content: flex-start;
 }
 
-#user-icon {
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  margin-left: auto;
+#logo {
+  justify-content: center;
+  
 }
 
+#header nav {
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+#menu-icon,
 #cart-icon {
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: 28px;
   cursor: pointer;
-  margin-left: 10px;
+  color: #000000;
 }
 
 #logo-img-header {
-  height: 50px;
-  margin-right: 20px;
+  height: 100px;
+  border-radius: 15px;
 }
